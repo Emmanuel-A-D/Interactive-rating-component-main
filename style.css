@@ -5,7 +5,7 @@
 }
 
 :root {
- 
+ --rating: rgb(124 135 152 / 20%);
  --Orange: hsl(25, 97%, 53%);
  --White: hsl(0, 0%, 100%);
  --Light-Grey: hsla(217, 12%, 63%, 0.1);
@@ -35,12 +35,17 @@ main {
  border-radius: 25px;
 }
 
-main h1 {
+section {
+ width: 100%;
+ height: 100%;
+}
+
+section h1 {
  margin-top: 8%;
  margin-bottom: 4%;
 }
 
-main p {
+section p {
  line-height: 25px;
  margin-bottom: 4%;
  color: var(--Medium-Grey);
@@ -97,3 +102,28 @@ main p {
  background-color: var(--White);
  color: var(--Orange);
 }
+
+
+.thank-you {
+ text-align: center;
+ padding: 25px 18px;
+}
+
+#rating {
+ width: 65%;
+ height: 40px;
+ margin: 20px auto;
+ padding: 7px;
+ border-radius: 20px;
+ color: var(--Orange);
+ background-color: var(--rating);
+}
+
+.thank-you-h1 {
+ margin: 23px auto 12px;
+}
+
+.thank-you-p {
+ font-size: 14px;
+}
+
