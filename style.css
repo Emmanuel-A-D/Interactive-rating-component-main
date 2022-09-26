@@ -77,7 +77,7 @@ section p {
  cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
  background-color: var(--Orange);
  color: var(--White);
 }
